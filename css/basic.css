@@ -1,0 +1,187 @@
+@import url("https://use.typekit.net/lfz1ish.css");
+
+
+@font-face {
+  font-family: 'TheDark';
+  src: url('../fonts/the-dark/the_dark-webfont.woff2') format('woff2'),
+  url('../fonts/the-dark/the_dark-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: myriad-pro-semiextended, sans-serif;
+  font-style: normal;
+}
+
+html, body, header {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: auto;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: 800;
+  border-bottom: 0;
+  /*border-bottom: 1px solid white;*/
+}
+
+.navigation li {
+  display: inline;
+}
+
+.navigation a {
+  display: inline;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation .menu_selected {
+  text-decoration: underline;
+}
+
+
+.navigation a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.body {
+  background-color: black;
+  /*background-color: rgb(32, 32, 32);*/
+  background-size: cover;
+  color: white;
+  margin: 0;
+}
+
+.main-header {
+  background-image: url(../images/Hit_Pump_coverphoto_v2.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 0;
+  color: #f0e5d5;
+}
+
+.body h1, h2, h3 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+}
+
+.main-footer {
+  padding-bottom: 100px;
+}
+
+.main-header .top_name {
+  font-weight: normal;
+  display: block;
+  line-height: 1em;
+  padding: 0;
+  letter-spacing: .05em;
+  overflow: hidden;
+  font-family: 'TheDark', cursive;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  vertical-align: bottom;
+}
+
+.about-image {
+  padding: 0;
+  margin: 15px;
+  float: right;
+  width: 70%;
+  max-height: 1000px;
+  max-width: 1502px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .main-header .top_name {
+    font-size: 300px;
+  }
+
+  .about-image {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .main-header .top_name {
+    font-size: 280px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .main-header .top_name {
+    font-size: 220px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .main-header .top_name {
+    font-size: 110px;
+  }
+
+  .about-image {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-header .top_name {
+    font-size: 100px;
+  }
+}
+
+.about-body {
+  min-height: 1100px;
+}
+
+
+.about-header {
+  
+}
+
+.about-text {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  font-size: x-large;
+}
+
+.sn_links {
+  list-style-type: none;
+  display: inline;
+  margin: 100px;
+}
+
+.sn_links li {
+  float: left;
+}
+
+.sn_logo {
+  filter: invert(100%);
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+  border: 0;
+  vertical-align: center;
+}

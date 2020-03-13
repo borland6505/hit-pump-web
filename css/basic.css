@@ -23,13 +23,13 @@ html, body, header {
 }
 
 .navigation ul {
+  position: absolute;
   margin: 0;
   padding: 0;
   text-align: left;
   font-size: 1.1em;
   font-weight: 800;
   border-bottom: 0;
-  /*border-bottom: 1px solid white;*/
 }
 
 .navigation li {
@@ -47,11 +47,9 @@ html, body, header {
   text-decoration: underline;
 }
 
-
 .navigation a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 
 .body {
   background-color: black;
@@ -62,7 +60,8 @@ html, body, header {
 }
 
 .main-header {
-  background-image: url(../images/Hit_Pump_coverphoto_v2.jpg);
+  /*background-image: url(../images/Hit_Pump_coverphoto_v2.jpg);*/
+  background-image: url(../images/HitPump_header_v3.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   padding-top: 20px;
@@ -72,14 +71,29 @@ html, body, header {
 
 .body h1, h2, h3 {
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 6px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /*padding-bottom: 10px;*/
 }
 
+
 .main-footer {
+
+  display: table;
+  width: 100%;
+  height: 500px;
+  /*height: 10000px;*/
+  /*display: flex;*/
+  /*height: 100%;*/
   padding-bottom: 100px;
 }
+
+/*.footer-box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  flex: 1 1 auto;
+}*/
 
 .main-header .top_name {
   font-weight: normal;
@@ -91,9 +105,8 @@ html, body, header {
   font-family: 'TheDark', cursive;
   text-align: center;
   text-decoration: none;
-  margin-top: 20%;
-  margin-bottom: 5%;
   vertical-align: bottom;
+  margin: 0;
 }
 
 .about-image {
@@ -138,6 +151,11 @@ html, body, header {
 @media only screen and (min-width: 480px) and (max-width: 599px) {
   .main-header .top_name {
     font-size: 110px;
+    margin-top: 10px;
+  }
+
+  .navigation a {
+    padding: .1em;
   }
 
   .about-image {
@@ -148,6 +166,11 @@ html, body, header {
 @media only screen and (max-width: 480px) {
   .main-header .top_name {
     font-size: 100px;
+    margin-top: 10px;
+  }
+
+  .navigation a {
+    padding: .1em;
   }
 }
 
@@ -155,14 +178,16 @@ html, body, header {
   min-height: 1100px;
 }
 
-
 .about-header {
-  
+  margin: 0;
+  text-align: center;
 }
 
 .about-text {
   text-align: center;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0;
   margin: 0;
   font-size: x-large;
 }

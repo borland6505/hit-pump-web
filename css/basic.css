@@ -22,6 +22,11 @@ html, body, header {
   overflow: auto;
 }
 
+html, body {
+  height: 100%;
+}
+
+
 .navigation ul {
   position: absolute;
   margin: 0;
@@ -59,6 +64,16 @@ html, body, header {
   margin: 0;
 }
 
+.box {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
 .main-header {
   /*background-image: url(../images/Hit_Pump_coverphoto_v2.jpg);*/
   background-image: url(../images/HitPump_header_v3.jpg);
@@ -67,6 +82,13 @@ html, body, header {
   padding-top: 20px;
   padding-bottom: 0;
   color: #f0e5d5;
+  flex: 0 0 auto;
+}
+
+.main-footer {
+  flex: 0 0 auto;
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .body h1, h2, h3 {
@@ -75,25 +97,6 @@ html, body, header {
   padding-bottom: 5px;
   /*padding-bottom: 10px;*/
 }
-
-
-.main-footer {
-
-  display: table;
-  width: 100%;
-  height: 500px;
-  /*height: 10000px;*/
-  /*display: flex;*/
-  /*height: 100%;*/
-  padding-bottom: 100px;
-}
-
-/*.footer-box {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-  flex: 1 1 auto;
-}*/
 
 .main-header .top_name {
   font-weight: normal;
@@ -113,7 +116,6 @@ html, body, header {
   padding: 0;
   margin: 15px;
   float: right;
-  width: 70%;
   max-height: 1000px;
   max-width: 1502px;
 }
@@ -124,7 +126,7 @@ html, body, header {
   }
 
   .about-image {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -174,9 +176,9 @@ html, body, header {
   }
 }
 
-.about-body {
+/*.about-body {
   min-height: 1100px;
-}
+}*/
 
 .about-header {
   margin: 0;

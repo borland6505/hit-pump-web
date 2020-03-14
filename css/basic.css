@@ -88,10 +88,6 @@ html, body {
   padding-bottom: 5px;
 }
 
-.footer-header {
-  margin-left: 10px;
-}
-
 .body h1, h2, h3 {
   margin: 0;
   padding-top: 10px;
@@ -140,10 +136,14 @@ html, body {
     width: 49.5%;
   }
 
+  .sn_links {
+    text-align: left;
+  }
+
   .sn_logo {
     width: 32px;
     height: 32px;
-    margin: 10px;
+    margin: 5px;
   }
 }
 
@@ -168,6 +168,10 @@ html, body {
 
   .event-item {
     width: 100%;
+  }
+
+  .sn_links {
+    text-align: center;
   }
 
   .sn_logo {
@@ -251,7 +255,6 @@ html, body {
   font-size: 1.5em;
   font-weight: bold;
   color: darkorange;
-  /*width: 5%;*/
 }
 
 .event-img {
@@ -265,15 +268,14 @@ html, body {
   text-align: left;
 }
 
-
 .sn_links {
   list-style-type: none;
-  display: inline;
-  margin: 100px;
+  margin: 0;
+  padding: 0;
 }
 
 .sn_links li {
-  float: left;
+  display: inline;
 }
 
 .sn_logo {

@@ -27,12 +27,9 @@ html, body {
 }
 
 .navigation ul {
-  margin-left: 10px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-  text-align: left;
-  font-size: 1.1em;
   font-weight: 800;
   border-bottom: 0;
 }
@@ -126,7 +123,13 @@ html, body {
 
 @media only screen and (min-width: 1024px) {
   .main-header .top_name {
-    font-size: 300px;
+    font-size: 17em;
+  }
+
+  .navigation ul {
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1.1em;
   }
 
   .about-image {
@@ -134,41 +137,19 @@ html, body {
   }
 
   .event-item {
-    width: 49%;
+    width: 49.5%;
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .main-header .top_name {
-    font-size: 280px;
+    font-size: 10em;
   }
 
-  .about-image {
-    width: 100%;
-  }
-
-  .event-item {
-    width: 49%;
-  }
-}
-
-@media only screen and (min-width: 600px) and (max-width: 767px) {
-  .main-header .top_name {
-    font-size: 220px;
-  }
-
-  .about-image {
-    width: 100%;
-  }
-
-  .event-item {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 599px) {
-  .main-header .top_name {
-    font-size: 110px;
+  .navigation ul {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2.2em;
   }
 
   .navigation a {
@@ -177,25 +158,6 @@ html, body {
 
   .about-image {
     width: 100%;
-  }
-
-  .event-item {
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .main-header .top_name {
-    font-size: 100px;
-    margin-top: 10px;
-  }
-
-  .about-image {
-    width: 100%;
-  }
-
-  .navigation a {
-    padding: .1em;
   }
 
   .event-item {

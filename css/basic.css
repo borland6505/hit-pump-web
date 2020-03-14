@@ -139,6 +139,12 @@ html, body {
   .event-item {
     width: 49.5%;
   }
+
+  .sn_logo {
+    width: 32px;
+    height: 32px;
+    margin: 10px;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -162,6 +168,12 @@ html, body {
 
   .event-item {
     width: 100%;
+  }
+
+  .sn_logo {
+    width: 128px;
+    height: 128px;
+    margin: 15px;
   }
 }
 
@@ -266,9 +278,6 @@ html, body {
 
 .sn_logo {
   filter: invert(100%);
-  width: 32px;
-  height: 32px;
-  margin: 10px;
   border: 0;
   vertical-align: center;
 }

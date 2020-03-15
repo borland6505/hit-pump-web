@@ -11,14 +11,14 @@
   <header class="main-header">
     <nav class="navigation">
       <ul>
-        <li><a class="menu_selected" href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="contacts.html">CONTACTS</a></li>
+        <li><a id="menu-home" class="menu_selected" onclick="mainMenuHome()">HOME</a></li>
+        <li><a id="menu-about"  onclick="mainMenuAbout()">ABOUT</a></li>
+        <li><a id="menu-contacts" onclick="mainMenuContacts()">CONTACTS</a></li>
       </ul>
     </nav>
     <h1 class="top_name">HIT PUMP</h1>
   </header>
-  <section class="body content">
+  <section id="events-001" class="body content">
     <div class="events">
       <h2 class="left-side-header">Upcoming events</h2>
       <div class="event-row">
@@ -109,6 +109,39 @@
       </div>
     </div>
   </section>
+  <section id="about-001" class="body about-body content" style="display: none">
+    <img class="about-image" src="images/HitPump-about-2.jpg">
+    <section>
+      <h2 class="center-header">ABOUT</h2>
+      <p class="about-text">Who are we? We are a Russian Band in Auckland, New Zealand.
+        What do we do? We play lots and lots of songs for any kind of audiences!
+        There is music on our setlist for everyone to enjoy 😊 It's all about the entertainment and fun,
+        so stay in tune for the upcoming events and help us spread the
+        news by sharing this page with your friends! Happy Hit Pump!
+      </p>
+      <p class="about-text">
+        Hit Pump was established in May 2018 by Konstantin Sigachev and Ilya Black in Auckland.
+        They started performing as an acoustic duet and slowly evolved into a full scale rock band.
+        In October 2019 Hit Pump with their current members performed live and gathered over
+        450 guests and many more could not get in because the show was Sold Out!
+        They have built a reputation for head-spinning live shows and continue to develop and experiment with different genres.
+        They are playing at Powerstation in May 2020 with a special guest Russian- Kiwi singer Marina Bloom.
+        “Music is a universal language, there is no need to understand the words when the band rocks!”
+        Band’s current members are Ilya Black (vocals), Konstantin Sigachev (guitars/vocals), Igor Plotnikov (guitars), Eugene Marikhin
+        (bass), Vladimir Sbitnev (drums).
+      </p>
+    </section>
+  </section>
+  <section  id="about-002" class="body about-body content" style="display: none">
+    <h2 class="left-side-header">Film</h2>
+    <div class="about-film">
+      <iframe src="https://www.youtube.com/embed/D37K-QAocpM" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </section>
+  <section  id="contacts-001" class="body content" style="display: none">
+    <h2 class="left-side-header">Contacts</h2>
+  </section>
   <footer class="body main-footer">
     <div class="sn_links">
       <ul>
@@ -131,5 +164,7 @@
     </div>
   </footer>
 </div>
+
+<script src="js/main_menu.js"></script>
 </body>
 </html>

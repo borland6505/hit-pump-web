@@ -289,13 +289,16 @@ html, body {
 }
 
 .sn_links {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 .sn_links li {
   display: inline;
+}
+
+.sn_links a {
+  text-decoration: inherit;
 }
 
 .sn_logo {

@@ -1,12 +1,12 @@
-##Hit Pump web page
+## Hit Pump web page
 
-###Build instructions
+### Build instructions
 
-####Prerequisites
+#### Prerequisites
 * Install Node.js
 * Install npm
 
-####Gulp build
+#### Gulp build
 * Install dependencies for project: `npm install --save-dev`
 * Run build: `gulp`
 

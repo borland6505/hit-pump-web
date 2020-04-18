@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>#STAYTHEFUCKHOME</title>
+  <script type="text/javascript">
+    function animateText(id, text, i) {
+      document.getElementById(id).innerHTML = text.substring(0, i);
+      i++;
+      if (i > text.length) {
+        return;
+      }
+      setTimeout("animateText('" + id + "','" + text + "'," + i + ")", 200);
+    }
+  </script>
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body onload='animateText("stay-home-text", "#StayTheFuckHome", 0);'>
+<div class="box">
+  <section class="body content">
+    <h1 style="font-size: 8em; text-align: center;" id='stay-home-text'></h1>
+    <h2 style="font-size: 4em; text-align: center;"><a href="https://covid19.govt.nz" target="_blank">COVID-19</a></h2>
+  </section>
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-name: Build and Deploy to AWS test 1
+name: Build and Deploy to AWS test 2
 
 on:
   push:

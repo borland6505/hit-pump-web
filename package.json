@@ -2,14 +2,16 @@
   "name": "hit-pump-web",
   "version": "1.0.0",
   "devDependencies": {
+    "event-stream": "latest",
     "gulp": "^4.0.2",
-    "gulp-clean": "latest",
-    "gulp-concat": "latest",
-    "gulp-csso": "^4.0.1",
-    "gulp-uglify": "latest",
-    "jshint": "latest",
-    "gulp-jshint": "^2.1.0",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-clean": "latest",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlbuild": "^0.4.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-uglify": "^3.0.2",
+    "jshint": "latest"
   }
 }
